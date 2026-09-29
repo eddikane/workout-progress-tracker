@@ -1,0 +1,14 @@
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\bin\Debug\net10.0\Module 1.exe
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\bin\Debug\net10.0\Module 1.deps.json
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\bin\Debug\net10.0\Module 1.runtimeconfig.json
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\bin\Debug\net10.0\Module 1.dll
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\bin\Debug\net10.0\Module 1.pdb
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\obj\Debug\net10.0\Module 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\obj\Debug\net10.0\Module 1.AssemblyInfoInputs.cache
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\obj\Debug\net10.0\Module 1.AssemblyInfo.cs
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\obj\Debug\net10.0\Module 1.csproj.CoreCompileInputs.cache
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\obj\Debug\net10.0\Module 1.dll
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\obj\Debug\net10.0\refint\Module 1.dll
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\obj\Debug\net10.0\Module 1.pdb
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\obj\Debug\net10.0\Module 1.genruntimeconfig.cache
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\Module 1\obj\Debug\net10.0\ref\Module 1.dll

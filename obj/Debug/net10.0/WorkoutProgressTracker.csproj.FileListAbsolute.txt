@@ -1,0 +1,14 @@
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\bin\Debug\net10.0\WorkoutProgressTracker.exe
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\bin\Debug\net10.0\WorkoutProgressTracker.deps.json
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\bin\Debug\net10.0\WorkoutProgressTracker.runtimeconfig.json
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\bin\Debug\net10.0\WorkoutProgressTracker.dll
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\bin\Debug\net10.0\WorkoutProgressTracker.pdb
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Debug\net10.0\WorkoutProgressTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Debug\net10.0\WorkoutProgressTracker.AssemblyInfoInputs.cache
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Debug\net10.0\WorkoutProgressTracker.AssemblyInfo.cs
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Debug\net10.0\WorkoutProgressTracker.csproj.CoreCompileInputs.cache
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Debug\net10.0\WorkoutProgressTracker.dll
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Debug\net10.0\refint\WorkoutProgressTracker.dll
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Debug\net10.0\WorkoutProgressTracker.pdb
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Debug\net10.0\WorkoutProgressTracker.genruntimeconfig.cache
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Debug\net10.0\ref\WorkoutProgressTracker.dll
