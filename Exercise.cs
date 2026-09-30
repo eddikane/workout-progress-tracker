@@ -1,3 +1,5 @@
+using System.Reflection.Metadata.Ecma335;
+
 public class Exercise
 {
     public string Name { get; set; }
@@ -11,6 +13,13 @@ public class Exercise
         Sets = sets;
         Reps = reps;
     }
+
+    public int GetVolume()
+    {
+        int volume = Weight * Sets * Reps;
+        return volume;
+    }
+
 }
 
 

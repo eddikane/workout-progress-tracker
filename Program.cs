@@ -1,6 +1,6 @@
-﻿List<Exercise> exercises = new List<Exercise>();
+﻿Workout workout = new Workout();
 int choice = 0;
-while (choice != 5)
+while (choice != 6)
 {
     Console.WriteLine("--------------------------");
     Console.WriteLine("WORKOUT PROGRESS TRACKER");
@@ -9,7 +9,8 @@ while (choice != 5)
     Console.WriteLine("2. View Workout");
     Console.WriteLine("3. View Workout Volume");
     Console.WriteLine("4. Save Workout");
-    Console.WriteLine("5. Exit");
+    Console.WriteLine("5. Load Workout");
+    Console.WriteLine("6. Exit");
     Console.WriteLine("--------------------------");
     Console.WriteLine();
     Console.WriteLine("Choose an option:");
@@ -40,7 +41,7 @@ while (choice != 5)
             Console.WriteLine();
 
             Exercise exercise = new Exercise(exerciseName, weight, sets, reps);
-            exercises.Add(exercise);
+            workout.Exercises.Add(exercise);
 
             Console.WriteLine("Exercise Added: ");
             Console.WriteLine($"{exerciseName}: {weight}lbs - {sets} sets x {reps} reps.");
@@ -52,13 +53,13 @@ while (choice != 5)
             Console.WriteLine("View Workout Selected!");
             Console.WriteLine();
 
-            if (exercises.Count == 0)
+            if (workout.Exercises.Count == 0)
             {
                 Console.WriteLine("No exercises have been added yet.");
             }
             else
             {
-                foreach (Exercise item in exercises)
+                foreach (Exercise item in workout.Exercises)
                 {
                     Console.WriteLine($"{item.Name}: {item.Weight}lbs - {item.Sets} sets x {item.Reps} reps");
                 }
@@ -69,19 +70,19 @@ while (choice != 5)
             Console.WriteLine("View Workout Volume Selected");
             Console.WriteLine();
 
-            int totalVolume = 0;
-            if (exercises.Count == 0)
+            if (workout.Exercises.Count == 0)
             {
                 Console.WriteLine("No exercises have been added yet.");
             }
             else
             {
-                foreach (Exercise item in exercises)
+                foreach (Exercise item in workout.Exercises)
                 {
-                    int volume = item.Weight * item.Sets * item.Reps;
-                    totalVolume += volume;
+                    int volume = item.GetVolume();
                     Console.WriteLine($"{item.Name}: {volume} lbs");
                 }
+
+                int totalVolume = workout.GetTotalVolume();
 
                 Console.WriteLine();
                 Console.WriteLine($"Total Workout Volume: {totalVolume} lbs");
@@ -90,9 +91,57 @@ while (choice != 5)
 
         case 4:
             Console.WriteLine("Save Workout Selected");
+            if (workout.Exercises.Count == 0)
+            {
+                Console.WriteLine("No exercises to save.");
+            }
+            else
+            {
+                using (StreamWriter writer = new StreamWriter("workout.txt"))
+                {
+                    foreach (Exercise item in workout.Exercises)
+                    {
+                        writer.WriteLine($"{item.Name},{item.Weight},{item.Sets},{item.Reps}");
+                    } 
+                }
+            }
+            Console.WriteLine("Workout saved successfully.");
             break;
+            
 
         case 5:
+            Console.WriteLine("Load Workout Selcted");
+
+            if (!File.Exists("workout.txt"))
+            {
+                Console.WriteLine("No saved workout file found.");
+            }
+            else
+            {
+                string[] lines = File.ReadAllLines("workout.txt");
+
+                workout.Exercises.Clear();
+                
+                foreach (string line in lines)
+                {
+                    string[] parts = line.Split(',');
+
+                    string name = parts[0];
+                    int loadedWeight = int.Parse(parts[1]);
+                    int loadedSets = int.Parse(parts[2]);
+                    int loadedReps = int.Parse(parts[3]);
+
+                    Exercise loadedExercise = new Exercise(name, loadedWeight, loadedSets, loadedReps);
+                    workout.Exercises.Add(loadedExercise);
+                }
+
+            Console.WriteLine("Workout loaded successfully.");
+            }
+
+            break;
+
+
+        case 6:
             Console.WriteLine("Exit Selected");
             break;
 
