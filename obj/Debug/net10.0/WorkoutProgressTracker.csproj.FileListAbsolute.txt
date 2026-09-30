@@ -12,3 +12,4 @@ C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Deb
 C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Debug\net10.0\WorkoutProgressTracker.pdb
 C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Debug\net10.0\WorkoutProgressTracker.genruntimeconfig.cache
 C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Debug\net10.0\ref\WorkoutProgressTracker.dll
+C:\Users\edwar\OneDrive\Documents\FALL 26\CSE 310\WorkoutProgressTracker\obj\Debug\net10.0\WorkoutProgressTracker.sourcelink.json

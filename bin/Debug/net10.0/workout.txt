@@ -1,0 +1,2 @@
+Bench Press,190,3,10
+Lat Raises,20,2,25

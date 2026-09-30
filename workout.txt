@@ -1,0 +1,2 @@
+Bench Press,160,4,8
+Lat Pulldown,160,4,8

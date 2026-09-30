@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkoutProgressTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51730e2a661985c43f7621bec264257ab81748f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6217cb9e001365b56f053f87eed3d060df46e800")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkoutProgressTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorkoutProgressTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
