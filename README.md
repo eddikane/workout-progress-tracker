@@ -4,7 +4,6 @@ I created this Workout Progress Tracker to strengthen my understanding of C# and
 
 The purpose of this software was to improve my ability to build a complete C# program using classes, objects, lists, loops, conditionals, methods, file input/output, and user input validation. I also wanted to create something related to fitness because it is an area that I am personally interested in and would also be something I could realistically continue improving in the future.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
 [Software Demo Video](https://youtu.be/khz_RrlJMBA)
 
